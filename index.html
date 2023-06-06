@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Fitness</title>
+</head>
+<link rel="styleheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bgf.jpg');
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid rgb(16, 247, 85); */
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 45%;
+        margin: 20px auto;
+        /* border: 2px solid rgb(19, 128, 230); */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background: black;
+        padding: 10px 3px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(115, 114, 114);
+
+    }
+
+    .container {
+        border: 5px solid white;
+        margin: 110px 800px;
+        padding: 64px;
+        width: 38%;
+        border-radius: 50px;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 150px;
+        padding: 0px;
+        border: 2px solid grey;
+        margin: 6px auto;
+        border-radius: 10px;
+        font-family: 'Baloo Bhai', cursive;
+
+    }
+
+    .conatainer h1 {
+        text-align: center;
+        
+    }
+
+    .container button {
+        margin: -4px 230px;
+        color: white;
+        background: black;
+        padding: 3px 36px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>
+                Himanshu's Fitness
+            </div>
+        </div>
+
+        <!-- for navigation bar  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- for buttons/search -->
+        <div class="right">
+            <button class="btn">
+                Call us Now
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h1>Join the Fitness Revolution Now in Chandigarh</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Contact">
+            </div>
+
+            <button class="btnn">Submit</button>
+        </form> 
+    </div>
+
+</body>
+
+</html>
